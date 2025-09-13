@@ -6,7 +6,7 @@ from PIL import Image, ImageTk
 import threading
 
 # ==== Configure Gemini ====
-genai.configure(api_key="AIzaSyAfoEvrewret00RVLN-c_wXgvOOI5qO3DY")
+genai.configure(api_key="API will provided soon")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 recognizer = sr.Recognizer()
@@ -109,3 +109,4 @@ text_box = tk.Text(root, wrap="word", height=20, width=60)
 text_box.pack(padx=10, pady=10)
 
 root.mainloop()
+
